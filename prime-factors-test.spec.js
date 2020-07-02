@@ -9,8 +9,6 @@ const makeTest = (number, actual) => {
 }
 
 describe('Prime Factors', () => {
-
-
      it('1 ==> []',makeTest(1,[]));
      it('2 ==> [2]',makeTest(2,[2]));
      it('3 ==> [3]',makeTest(3,[3]));
@@ -19,4 +17,5 @@ describe('Prime Factors', () => {
      it('6 ==> [2,3]',makeTest(6,[2,3]))
      it('7 ==> [7]',makeTest(7,[7]))
      it('15 ==> [3,5]',makeTest(15,[3,5]))
+     it('20 ==> [2,2,5]',makeTest(15,[3,5]))
 });
